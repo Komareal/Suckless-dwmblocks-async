@@ -21,10 +21,10 @@
     X("", "sb-memory", 10, 4) \
     X("", "sb-cpu-temp", 1, 11) \
     X("", "sb-cpu-perc", 1, 5) \
-    X("", "sb-mic", 0, 6)     \
     X("", "sb-volume", 0, 8)  \
     X("", "sb-battery", 5, 9) \
     X("", "sb-date", 1, 10)
 
+    /*X("", "sb-mic", 0, 6)     \*/
     /*X("", "sb-record", 0, 7)  \*/
 #endif  // CONFIG_H
