@@ -16,12 +16,14 @@
 // Control whether a trailing delimiter should be appended to the status.
 #define TRAILING_DELIMITER 0
 
+#define AUTO 60
 // Define blocks for the status feed as X(icon, cmd, interval, signal).
 #define BLOCKS(X)             \
+    X("", "sb-brightness", AUTO, 12) \
     X("", "sb-memory", 10, 4) \
     X("", "sb-cpu-temp", 1, 11) \
     X("", "sb-cpu-perc", 1, 5) \
-    X("", "sb-volume", 0, 8)  \
+    X("", "sb-volume", AUTO, 8)  \
     X("", "sb-battery", 5, 9) \
     X("", "sb-date", 1, 10)
 
